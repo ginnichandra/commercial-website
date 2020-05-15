@@ -1,0 +1,212 @@
+.navbar .active{
+  background-color:cadetblue;
+  color:white;
+}
+
+.navbar {
+  position:relative;
+  overflow: hidden;
+  background-color:black;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align:center;
+  padding:1% 5.318%; 
+  text-decoration: none;
+  font-weight:bold;
+  background-color:black;
+}
+
+.navbar .color:hover{
+  background-color:whitesmoke;
+  color:black;
+}
+
+/* Change color on hover */
+
+.navbar a:hover {
+  color:none;
+}
+
+.two{
+  display:flex; 
+}
+
+/* page bgcolor */
+
+body{
+  background-color:black;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:20px;
+}
+/* extras*/
+.h1{
+  text-align:center;
+  color:white;
+  text-shadow:5px 5px 10px whitesmoke,0 0 30px gold;
+  font-size:100px;;
+}
+.h2{
+  font-family:"Palatino Linotype", "Book Antiqua",Palatino, serif;
+  font-size:30px;
+  margin-left:20px;
+  border:2px solid red;
+  width:18%;
+  padding:5px 0 5px 10px;
+}
+ 
+/* compare page*/
+h1{
+  text-align:center;
+  color:white;
+  text-shadow:5px 5px 10px whitesmoke,0 0 30px gold;
+  font-size:100px;;
+}
+h2{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px 10px blue;
+}
+/* compare page*/
+
+ul {
+  font-family:"Palatino Linotype", "Book Antiqua",Palatino, serif;
+  line-height:40px;
+  word-spacing:2px;
+  letter-spacing:2px;
+}
+
+.d{
+  color:white;
+}
+
+/*End Extras*/
+
+/* body content */
+.body{
+  margin-top:2%;
+  text-align:left;
+                                        /*height:700px; add height if necessary*/
+  padding:10px;
+  line-height:30px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-size:x-large;
+  color:white;
+}
+
+.bodyg{
+  height:1400px;
+  background: red;
+  padding:10px;
+}
+
+/* gallery style start*/
+
+.gallery {
+  margin:5px;
+  float:left;
+  width:24%;
+}
+ 
+.gallery:hover {
+  border:1px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+/* gallery style end*/
+
+/*product page*/
+
+.desc {
+  word-break: break-all;
+  margin-top:100px;
+  line-height:40px;
+  word-spacing:10px;
+  letter-spacing:5px;
+  font-size:30px;
+  padding: 15px;
+  color:whitesmoke;
+}
+
+.clearfix{
+  overflow:auto;
+}
+.image{
+  float:left;
+  margin-bottom:5px;
+}
+
+/* contact page */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=radio]{
+margin-bottom:16px;
+}
+
+ input[type=checkbox]{
+   margin-bottom: 16px;
+ }
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:cadetblue;
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+  /* end contact page */
+
+  /* Footer */
+.footer {
+  text-align: center;
+  color:white;
+  float:right;
+}
+ /* social media icons*/
+.fa {
+ border-image: 5px solid black;
+}
+
+/* Responsive layout - when the screen is less than 400px wide,
+make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    width: auto;
+  }
+}
+
